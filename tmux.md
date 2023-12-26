@@ -9,3 +9,12 @@
   sudo apt-get install tmux
   ```
   #### - 참고 : 일반적으로 내장되어 있음
+
+### 3. How to use ###
+
+  ```
+  tmux : 새로운 세션 시작
+  tmux new -s {name} : {name}
+  tumx ls : 현재 세션 list
+  tumx a -t {name} : {name} 세션으로 돌아가기
+  ```
