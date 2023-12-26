@@ -8,6 +8,7 @@
   2. kali linux 설치
   3. kali linux 압축 해제 후 VirtualBox Machine Definition(파란색) 실행
 
+
 2)Setting
 
    1. 네트워크 -> 네트워크 연결을 'NAT' 형식으로 사용
