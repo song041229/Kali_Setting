@@ -14,7 +14,7 @@
 
   ```
   tmux : 새로운 세션 시작
-  tmux new -s {name} : {name}
+  tmux new -s {name} : {name} 이름으로 세션 시작
   tumx ls : 현재 세션 list
-  tumx a -t {name} : {name} 세션으로 돌아가기
+  tumx a -t {name} : {name}인 세션으로 돌아가기
   ```
