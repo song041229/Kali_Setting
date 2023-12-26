@@ -14,8 +14,11 @@
 
 1. Session
   ```
-  tmux : 새로운 세션 시작
-  tmux new -s {name} : {name} 이름으로 세션 시작
+  # 새로운 세션 시작 (default : 숫자)
+  $ tmux
+
+  # 이름을 지정하여 세션 생성
+  $ tmux new -s <name>
 
   tumx ls : 현재 세션 list
 
@@ -33,4 +36,9 @@
   ctrl+b -> , : 현재 윈도우 이름 바꾸기
 
   ctrl+b -> w : 현재 윈도우 목록 나열
+  ```
+
+3. Extra
+  ```
+
   ```
