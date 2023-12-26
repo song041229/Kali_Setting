@@ -16,9 +16,13 @@
    3. 사용자 -> Access에서 Machines의 VPN Server를 AU-Regular-1으로 다운로드
    4. 다음의 명령어들을 입력
 
+
 ```
 $ tmux                  // 선택
 $ cd ~/Downloads        // 필수
-$ ls - alh              // 필수
+$ ls -alh               // 필수
 $ sudo openvpn ~~~.ovpn // 필수
 ```
+
+  *참고*
+  - tmux : 여러 터미널을 독립적으로 실행하기 위한 기능 
