@@ -14,24 +14,35 @@
 
 1. Session
   ```
-  # 새로운 세션 시작 (default : 숫자)
+  # 새로운 세션 생성 (default : 숫자)
   $ tmux
 
   # 이름을 지정하여 세션 생성
   $ tmux new -s <name>
 
-  tumx ls : 현재 세션 list
 
-  tumx a -t {name} : {name}인 세션으로 돌아가기
+  # 현재 세션 list
+  $ tumx ls
+
+  # 특정 이름인 세션으로 돌아가기
+  $ tumx a -t <name>
   ```
 
 2. Window
   ```
-  ctrl+b, c : 새로운 윈도우 생성
-  ctrl+d : 윈도우 닫기
+  # 새로운 윈도우 생성
+  $ ctrl+b, c
 
-  ctrl+b -> p : 이전 윈도우로 이동
-  ctrl+b -> n : 다음 윈도우로 이동
+  # 현재 윈도우 닫기
+  $ ctrl+d
+
+
+  # 이전 윈도우로 이동
+  $ ctrl+b -> p
+
+  # 다음 윈도우로 이동
+  $ ctrl+b -> n 
+
  
   ctrl+b -> , : 현재 윈도우 이름 바꾸기
 
