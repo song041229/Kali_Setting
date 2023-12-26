@@ -13,3 +13,11 @@
    1. 네트워크 -> 네트워크 연결을 'NAT' 형식으로 사용
    2. https://tryhackme.com/room/grootsecurity 접속
    3. 사용자 -> Access에서 Machines의 VPN Server를 AU-Regular-1으로 다운로드
+   4. 다음의 명령어들을 입력
+
+```
+$ tmux                  // 선택
+$ cd ~/Downloads        // 필수
+$ ls - alh              // 필수
+$ sudo openvpn ~~~.ovpn // 필수
+```
