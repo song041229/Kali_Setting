@@ -5,7 +5,7 @@
 
 ### 2. Command ###
 
-1. 네트워크 인터페이스
+1. Network Interface
 
   ```
   # 모든 네트워크 인터페이스 성정
@@ -22,7 +22,7 @@
   $ sudo ifconfig <name> down
   ```
 
-2. 네트워크 인터페이스의 매개변수 설정
+2. Network Interface args Setting
 
   ```
   # ip 주소 할당
@@ -48,3 +48,9 @@
   $ ifconfig <name> -promisc
   ```
 
+3. Extra
+
+  ```
+  # 현재 ip 
+  $ hostname -i
+  ```
