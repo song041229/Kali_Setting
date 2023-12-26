@@ -8,7 +8,7 @@
   ```
   sudo apt-get install tmux
   ```
-  #### - 참고 : 일반적으로 내장되어 있음
+  - 참고 : 일반적으로 내장되어 있음
 
 ### 3. Command ###
 
