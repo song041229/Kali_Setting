@@ -57,5 +57,9 @@
 
 3. Extra
   ```
-  
+  # 세션 종료
+  $ exit
+
+  # 세션 종료
+  $ tmux kill-session -t <name>
   ```
