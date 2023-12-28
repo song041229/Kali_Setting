@@ -55,7 +55,19 @@
   $ ctrl+b, w 
   ```
 
-3. Extra
+3. Pane
+  ```
+  # 화면을 세로로 분할
+  $ ctrl+b, %
+
+  # 화면을 가로로 분할
+  $ ctrl+b, "
+
+  # pane 옮겨 다니기
+  $ ctrl+b, <arrow>
+  ```
+
+4. Extra
   ```
   # 세션 종료
   $ exit
